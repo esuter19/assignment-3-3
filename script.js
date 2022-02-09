@@ -4,8 +4,7 @@ require([
         "esri/views/MapView",
         "esri/widgets/Legend"
       ], (Map, CSVLayer, MapView, Legend) => {
-        const url =
-          "https://raw.githubusercontent.com/gbrunner/adv-programming-for-gis-and-rs/master/Web%20Development%20Module/Unit%202%20-%20ArcGIS%20JavaScript%20API/stl_crime_wgs_84.csv";
+        const url = "stl_crime_wgs_84.csv";
 
         // Paste the url into a browser's address bar to download and view the attributes
         // in the CSV file. These attributes include:
